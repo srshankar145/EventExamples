@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+  border: 2px solid seagreen;
+  height: 95vh;
+  width: 100%;
+  font-family: "Fira Sans";
+  font-size: 1rem;
+}
+
+.container {
+  /* border: 2px solid saddlebrown; */
+  width: max-content;
+  transform: translate(75%, 95%);
+}
+
+input[type="text"] {
+  /* border: 2px solid saddlebrown; */
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid salmon;
+}
+
+input[type="text"]:nth-child(5) {
+  /* border: 2px solid saddlebrown; */
+  margin-left: 3.25rem;
+}
+
+button {
+  padding: 0.75rem;
+  border: 1px solid #606c5d;
+  background-color: #f7e6c4;
+  border-radius: 10px;
+  font-size: 1rem;
+}
